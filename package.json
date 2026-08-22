@@ -1,0 +1,19 @@
+{
+  "name": "DSH-check-token",
+  "version": "1.0.2",
+  "private": true,
+  "type": "module",
+  "description": "Floating account-balance widget for the DSH web GUI (DeepSeek API balance).",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}
